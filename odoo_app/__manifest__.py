@@ -15,6 +15,7 @@
             'odoo_app/static/src/js/*.*',
             'odoo_app/static/src/xml/*.*',
             'odoo_app/static/src/scss/app.scss',
+            'https://cdn.jsdelivr.net/npm/chart.js',
         ],
     },
     'license': 'LGPL-3',
