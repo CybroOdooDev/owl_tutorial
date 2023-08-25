@@ -105,7 +105,7 @@ export class Images extends Component {
     };
     goBackend(){
     /*
-        The `this.action.deoAction` method is utilized to navigate to the view of the corresponding employee props.
+        The `this.action.doAction` method is utilized to navigate to the view of the corresponding employee props.
     */
         this.action.doAction({
             type: 'ir.actions.act_window',
