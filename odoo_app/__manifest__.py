@@ -3,7 +3,7 @@
     'version': '16.0.1.0.0',
     'summary': 'Odoo App',
     'depends': [
-        'base'
+        'base', 'hr','hr_timesheet'
     ],
     'author': "Cybrosys",
     'category': 'Sales',

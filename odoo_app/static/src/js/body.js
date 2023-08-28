@@ -54,7 +54,7 @@ export class EmployeeChart extends Component {
                }
            }
 
-        })
+        });
     }
     handleModalClose(){
         /*

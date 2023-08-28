@@ -240,13 +240,14 @@ class AppComponent extends Component {
             /*
                 Displays the corresponding modal of employees.
             */
-            const modal = this.root.el.querySelector(`#modal_${event.detail.employee.id}`)
+            const modal = this.root.el.querySelector(`#modal_${event.detail.employee.id}`);
             modal.style.display = 'block';
         }
     }
 }
 
 AppComponent.template = 'App';
+//Child components are added to the `components` of `AppComponent`.
 AppComponent.components = {
     Header,
     Body,
